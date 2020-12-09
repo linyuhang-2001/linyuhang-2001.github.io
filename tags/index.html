@@ -25,22 +25,57 @@
 	width: 100%;
 	background-color: #666;
 }
+#video1 {
+	width: 100%;
+	height: 100%;
+}
+#botm {
+	width: 100%;
+	background-color: #666;
+}
 #nova a {
 	color: #000;
 	text-decoration: none;
 	width: 15%;
-	font-size: 40px;
+	font-size: 50px;
 	line-height: 0px;
 	display: inline-block;
+	font-family: "黑体";
+}
+#pig {
+	width: 100%;
+	height: 800px;
 }
 #sy {
 	max-height: 200px;
-	max-width: 300px;
+	max-width: 200px;
 }
 #textfield {
 	display: inline-block;
 	width: 300px;
 	height: 40px;
+}
+.footer {
+	height: 50px;
+	width: 10%;
+	display: inline-block;
+	font-size: 30px;
+	padding-right: 250px;
+	padding-left: 50px;
+}
+#botm .footer a {
+	text-decoration: none;
+	color: #CCC;
+	display: inline-block;
+	width: 80px;
+}
+#botm input {
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	right: 20px;
+	background-color: #CCC;
+	top: 1050px;
 }
 #button {
 	display: inline-block;
@@ -83,12 +118,22 @@
 
 
 <body>
-<div id="nova"><a href="linyuhang.love"><img src="/images/船标.jpeg" name="sy" id="sy"></a><a href="#" target="_blank">Read</a>丨<a href="#" target="_blank">WATCH</a>丨<a href="#" target="_blank">LISTEN</a>
+<div id="nova"><a href="航海王.html"><img src="images/船标.jpeg" name="sy" id="sy"></a><a href="Read.html" target="_blank">Read</a>丨<a href="#" target="_blank">WATCH</a>丨<a href="#" target="_blank">LISTEN</a>
   <form action="" method="post" name="ss" id="ss">
     <label for="textfield"></label>
     <input type="text" name="textfield" id="textfield">
     <input type="submit" name="button" id="button" value="search">
   </form>
+</div>
+<div id="pig"><video loop controls id="video1">
+<source src="images/video.mp4">
+</video></div>
+<div id="botm">
+  <div class="footer"><a href="Read.html">READ</a> <a href="#">WATCH</a> <a href="#">LISTEN</a></div>
+  <div class="footer"><a href="#">FAQ</a> <a href="#">Events</a> <a href="#">Copyrights</a></div>
+  <div class="footer">
+<a href="#">Policy</a> <a href="#">Twitter</a> <a href="#">Facebook</a></div>
+<input name="SIGN UP" type="button" value="Sign Up">
 </div>
 </body>
 </html>
